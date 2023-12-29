@@ -1,0 +1,1 @@
+export const googleTokenName = 'auth-token'
