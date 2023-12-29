@@ -32,7 +32,7 @@ export const Chat = ({ room }: ChatProps) => {
     return () => unsubcribe()
   }, [])
 
-  const handleSubmit = async e => {
+  const handleSubmit = async (e: any) => {
     e.preventDefault()
 
     if (!newMessage) return
