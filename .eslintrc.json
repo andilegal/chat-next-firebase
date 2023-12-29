@@ -1,0 +1,14 @@
+{
+  "extends": [
+    "prettier",
+    "plugin:@next/next/recommended",
+    "eslint:recommended",
+    "next"
+  ],
+  "plugins": [],
+  "rules": {
+    "no-unused-vars": "off",
+    "react-hooks/exhaustive-deps": "off",
+    "no-undef": "off"
+  }
+}
